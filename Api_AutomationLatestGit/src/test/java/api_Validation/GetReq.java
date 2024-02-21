@@ -11,6 +11,7 @@ public class GetReq {
 
 	public static void main (String []arg) {
 		
+		//get Request
 		
 		Response response = get("https://reqres.in/api/users/2");
 
