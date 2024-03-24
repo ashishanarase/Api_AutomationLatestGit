@@ -27,7 +27,7 @@ public class SendTextWithOutSendkeys {
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("document.getElementById('APjFqb').value='Engineer'");
-		
+	//	js.executeScript("argument[0].value", "args");
 		Thread.sleep(2000);
 		driver.close();
 	}
