@@ -22,7 +22,7 @@ public class ClickOperations{
 
 	public static void main(String[] args) throws Exception {
 
-		WebDriverManager.chromedriver().browserVersion("122.0.6261.131").setup();
+		WebDriverManager.chromedriver().browserVersion(_dyanamicData.UpdateHere.browserVersion).setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

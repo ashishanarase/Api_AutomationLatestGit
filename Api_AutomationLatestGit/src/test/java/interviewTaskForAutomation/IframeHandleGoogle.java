@@ -14,7 +14,7 @@ public class IframeHandleGoogle {
 	
 	public static void main(String[] args) throws InterruptedException {
 
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().browserVersion(_dyanamicData.UpdateHere.browserVersion).setup();
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();

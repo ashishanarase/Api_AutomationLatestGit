@@ -3,19 +3,17 @@ package interviewTaskForAutomation;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 import java.util.List;
 import java.util.Set;
 
 public class AmazonFooter {
 	public static void main(String[] args) {
 
-		WebDriverManager.firefoxdriver().setup();
+		WebDriverManager.chromedriver().browserVersion(_dyanamicData.UpdateHere.browserVersion).setup();
 		// Launch a new instance of the ChromeDriver
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new ChromeDriver();
 
 		// Navigate to the Amazon website
 		driver.get("https://www.amazon.com");

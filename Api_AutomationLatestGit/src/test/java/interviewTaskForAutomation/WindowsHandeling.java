@@ -18,7 +18,7 @@ public class WindowsHandeling{
 
 	public static void main(String[] args) throws Exception {
 
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().browserVersion(_dyanamicData.UpdateHere.browserVersion).setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

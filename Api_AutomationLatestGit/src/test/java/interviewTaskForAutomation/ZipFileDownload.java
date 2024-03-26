@@ -39,7 +39,7 @@ public class ZipFileDownload {
 	        options.setExperimentalOption("prefs", prefs);
 
 		
-	    WebDriverManager.chromedriver().browserVersion("121.0.6167.185").setup();
+	    WebDriverManager.chromedriver().browserVersion(_dyanamicData.UpdateHere.browserVersion).setup();
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
