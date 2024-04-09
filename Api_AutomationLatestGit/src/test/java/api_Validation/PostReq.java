@@ -19,6 +19,11 @@ public class PostReq {
 	
 	baseURI = "https://reqres.in/api";
 		
-		given().body(obj.toJSONString()).when().put("/users/2").then().statusCode(200).log().all();
+		given().
+			body(obj.toJSONString()).
+		when()
+			.put("/users/2").
+		then().
+			statusCode(200).log().all();
 	}
 }

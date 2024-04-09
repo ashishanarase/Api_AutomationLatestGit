@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class WindowsHandeling{
+public class WindowsHandling{
 
 	static WebDriver driver;
 	/*Handle a specific window if there are multiple windows*/
