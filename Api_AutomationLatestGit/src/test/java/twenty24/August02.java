@@ -1,6 +1,6 @@
 package twenty24;
 
-public class July24 {
+public class August02 {
 	
 	
 	
